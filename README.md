@@ -1,0 +1,53 @@
+# nodejs-express-typescript
+
+nodejs-express-typescript is a template for Node.js application using Express in TypeScript.
+
+## Features
+
+- [Express](https://github.com/expressjs/express)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [nodemon](https://github.com/remy/nodemon)
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
+  - Automatically runs before each commit ([Husky](https://github.com/typicode/husky) & [pretty-quick](https://github.com/azz/pretty-quick))
+- [Jest](https://github.com/facebook/jest)
+  - Support for TypeScript ([ts-jest](https://github.com/kulshekhar/ts-jest))
+- [Supertest](https://github.com/visionmedia/supertest)
+
+## Installation
+
+Use [npm](https://www.npmjs.com) or [Yarn](https://yarnpkg.com) to install dependencies.
+
+```bash
+npm/yarn install
+```
+
+## Usage
+
+### Run in development mode
+
+```bash
+npm/yarn run dev
+```
+
+### Build for production
+
+```bash
+npm/yarn run build
+```
+
+### Run tests
+
+```bash
+npm/yarn run test
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](LICENSE)
