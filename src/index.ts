@@ -1,12 +1,7 @@
 /* eslint-disable no-console */
 
-import express, { Application, Request, Response } from 'express';
+import app from './app';
 
-const app: Application = express();
 const port = 5000;
-
-app.use('/', (req: Request, res: Response) => {
-  res.status(200).send({ data: 'Hello World' });
-});
 
 app.listen(port, () => console.log(`Server is listening on port ${port}!`));
