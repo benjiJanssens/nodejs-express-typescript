@@ -1,11 +1,7 @@
 /* eslint-disable no-console */
 
-import 'dotenv/config`';
-import { cleanEnv, port } from 'envalid';
+import 'dotenv/config';
 import app from './app';
+import env from './utils/env';
 
-cleanEnv(process.env, {
-  PORT: port({ default: 3000 }),
-});
-
-app.listen(process.env.PORT, () => console.log(`Server is listening on port ${process.env.PORT}!`));
+app.listen(env.PORT, () => console.log(`Server is listening on port ${process.env.PORT}`));

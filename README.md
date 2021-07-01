@@ -5,6 +5,10 @@ nodejs-express-typescript is a template for Node.js application using Express in
 ## Features
 
 - [Express](https://github.com/expressjs/express)
+  - [cors](https://github.com/expressjs/cors)
+  - [express-rate-limit](https://github.com/nfriedly/express-rate-limit)
+  - [helmet](https://github.com/helmetjs/helmet)
+  - [morgan](https://github.com/expressjs/morgan)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [nodemon](https://github.com/remy/nodemon)
 - [ESLint](https://github.com/eslint/eslint)
