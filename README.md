@@ -8,11 +8,14 @@ nodejs-express-typescript is a template for Node.js application using Express in
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [nodemon](https://github.com/remy/nodemon)
 - [ESLint](https://github.com/eslint/eslint)
+  - [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript)
 - [Prettier](https://github.com/prettier/prettier)
   - Automatically runs before each commit ([Husky](https://github.com/typicode/husky) & [pretty-quick](https://github.com/azz/pretty-quick))
 - [Jest](https://github.com/facebook/jest)
-  - Support for TypeScript ([ts-jest](https://github.com/kulshekhar/ts-jest))
+  - [ts-jest](https://github.com/kulshekhar/ts-jest)
 - [Supertest](https://github.com/visionmedia/supertest)
+- [dotenv](https://github.com/motdotla/dotenv)
+  - [envalid](https://github.com/af/envalid)
 
 ## Installation
 
