@@ -34,6 +34,12 @@ npm/yarn install
 
 ## Usage
 
+### Run in production mode
+
+```bash
+npm/yarn run start
+```
+
 ### Run in development mode
 
 ```bash
